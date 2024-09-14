@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="user.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+     body{
+        background-image:url(login_bg.png);
+        background-size: cover;
+    }
+    /* .image img{
+        display: inline-block;
+        height:150px;
+        width: 150px;
+        margin-left: 20px;
+        justify-content: center;
+        margin-top: 200px;
+        margin-bottom: 10px;
+    }
+    td input{
+        margin: 5px;
+        border-radius: 10px;
+        padding: 7px;
+        border-color: rgb(8, 149, 214);
+    }  */
+    td input{
+        display: inline-block;
+        margin:2px;
+    }
+
+</style> 
+<body bgcolor="grey" >
+    <center>
+        <div class="image"><img src="user.png" alt="" ></div>
+        <form action="index.html" >
+            <table>
+                <tr>
+                    <td>Name:   </td><td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Reg no: </td><td><input type="text" placeholder="23C094"></td>
+                </tr>
+                <tr>
+                    <td>Year:   </td><td><input type="number" placeholder="2"></td>
+                </tr>
+                <tr>
+                    <td>Email: </td><td><input type="email" placeholder="abc@student.tce.edu"></td>
+                </tr>
+                <tr>
+                    <td></td><td><button style="margin-left: 5px;">Register</button></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

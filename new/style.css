@@ -1,0 +1,35 @@
+
+
+    .image img{
+        display: inline-block;
+        height:150px;
+        width: 150px;
+        margin-left: 20px;
+        justify-content: center;
+        margin-top: 200px;
+        margin-bottom: 10px;
+    }
+    button{
+    display: inline-block;
+    margin-left: 45px;
+    background-color: rgb(7, 117, 227);
+    padding: 9px;
+    width :100px;
+    border-color: rgb(8, 149, 214);
+    border-radius: 20px;
+    color: white;
+    transition: background-color 0.15s,opacity 0.15s;
+    box-shadow: 3px 3px 5px rgba(211, 209, 209, 0.3);
+    
+    }
+    td input{
+        margin: 5px;
+        border-radius: 10px;
+        padding: 7px;
+        border-color: rgb(8, 149, 214);
+    }
+    td{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+       
+    }
