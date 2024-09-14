@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Demo.css">
+</head>
+<body>
+    <div class="header">
+        <img src="https://www.tce.edu/sites/default/files/Images/nss-logo.jpeg" alt="Logo1">
+        <h1>TCE - NSS</h1>
+        <img src="" alt="Logo2">
+    </div>
+    <hr>
+    <div class="navbar">
+        <p>Home</p>
+        <p>NSS po</p>
+        <p>Volunteers</p>
+        <p>Announcements</p>
+        <p>About Us</p>
+    </div>
+</body>
+</html>
